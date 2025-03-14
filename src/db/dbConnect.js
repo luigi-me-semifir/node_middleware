@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+// Repository
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.DB)
